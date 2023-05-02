@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+
+
+.search{
+	float:right;
+	margin-top:-10px;
+	width:400px;
+	height:30px;
+	background-color: transparent;
+	
+
+}
+[type=text]{
+	position:relative;
+	height:30px;
+	width:300px;
+	border: none;
+	border-radius:10px;
+	outline: none;
+	background-color: #efefef;
+}
+.icon{
+	position:relative;
+	left:-40px;
+	top:7px;
+	background-image:url("../images/search2.png");
+	background-repeat:no-repeat;
+	width: 30px;
+	height: 20px;
+	border: none;
+}

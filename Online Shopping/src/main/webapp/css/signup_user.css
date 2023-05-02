@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+#container{
+	position: relative;
+	left:20px;
+	width: 1000px;
+	
+}
+
+.signup {
+	position: relative;
+	justify-content:space-between;
+	margin-left:20px;
+	left: 35%;
+	top: 300px;
+}
+
+input,select {
+	position: relative;
+	float:left;
+	margin-left:10px;
+	top: 40px;
+	right: 200px;
+	width: 300px;
+	height: 30px;
+	border: none;
+	outline: none;
+}
+#btn{
+	background-color: #6699ff;
+}
+#btn:hover{
+	background-color: #d580ff;
+	cursor: pointer;
+}
+
+img {
+	position: relative;
+	left: 10%;
+	top:60px;
+}
+a{	
+	float:left;
+	position: relative;
+	top: 40px;
+	right:50px;
+	text-decoration: none;
+	background-color:  #00cccc;
+	padding: 2px;
+	border-radius: 10px;
+	margin-left: 150px;
+}
+a:hover {
+	background-color:#00ffff;
+	font-size:30px;
+}
+p{
+	position: relative;
+	bottom:4px;
+	left: 500px;
+}

@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+.container{
+	height: 600px;
+	overflow: scroll;
+	position: relative;
+	left:5%;
+	
+}
+.container::-webkit-scrollbar{
+display: none;
+align-self: flex-end;
+
+}
+table {
+	width: 75%;
+	text-align: center;
+	font-family:monospace;
+	
+}
+a{	
+	font-family:sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	border-radius: 15px;
+	background-color: #a668cf;
+}
+a:hover{
+	background-color: red;
+	font-size:20px;
+}
+caption {
+	background-color:  #8878c3;
+	border-radius: 15px;
+	color: white;
+	font-size: 25px;
+	
+}
+tr:hover {
+	font-size: 20px;
+	background-color: yellow;
+	border-radius: 15px;
+}
+
+
+
+
+input[type="text"]:hover {
+	width: 70%;
+	font-size: 20px;
+	background-color: yellow;
+	text-align: center;
+}
+select:hover {
+	width: 70%;
+	font-size: 20px;
+	background-color: yellow;
+}
+
+#btn{
+	float:left;
+	background-color: #8878c3; 
+	width: 20%;
+	height:30px;
+	position: relative;
+	top:400px;
+	left: 22%;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	
+}
+#btn:hover {
+	float:left;
+	position: relative;
+	background-color: #d24dff;
+	color: white;
+	width: 30%;
+	height:35px;
+	cursor: pointer;
+}

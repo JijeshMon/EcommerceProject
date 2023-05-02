@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+a{
+	text-decoration: none;
+	font-size: 25px;
+}
+p{
+	font-size: 20px;
+}
+.container{
+	position: relative;
+	left: 35%;
+}
+marquee{
+	background-color: #e066ff;
+	font-size: 20px;
+	color: white;
+}

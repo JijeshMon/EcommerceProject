@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url("../images/bg-light.jpg");
+}
+table {
+	background: white;
+	width: 50%;
+	margin-left: 500px;
+	padding: 20px;
+}
+input[type="text"], select{
+	width:90%;
+	height: 25px;
+	outline: none;
+	border: none;
+	background-color:#daf0ff; 
+}
+h3{
+	text-align: center;
+}
+#btn{
+	background-color: gray;
+	width: 25%;
+	height:30px;
+	position: relative;
+	top:10px;
+	left: 40%;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	
+}
+#btn:hover {
+	position: relative;
+	left: 38%;
+	background-color: #8878c3;
+	color: white;
+	width: 30%;
+	height:35px;
+	cursor: pointer;
+}
